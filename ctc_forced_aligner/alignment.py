@@ -1,5 +1,7 @@
 import os
 import logging
+from typing import Dict, Any
+
 import numpy
 
 # ONNX specific
@@ -124,7 +126,8 @@ class Alignment:
         cache_key = (audio_path, transcript_text, language, onnx_batch_size, romanize_for_onnx, star_insertion_strategy)
         if cache_key in self._cached_align_data:
             logger.debug("Returning cached ONNX alignment data.")
-            return self_cached_align_data[cache_key]
+            # return self_cached_align_data[cache_key]
+            return None
 
         audio_waveform = util_load_audio(audio_path, target_sr=SAMPLING_FREQ)
 

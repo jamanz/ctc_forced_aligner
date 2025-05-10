@@ -7,7 +7,7 @@ import logging
 from typing import List, Tuple, Dict, Any
 from dataclasses import dataclass
 
-from .constants import SAMPLING_FREQ
+from .constants import SAMPLING_FREQ, VOCAB_DICT
 
 logger = logging.getLogger(__name__)
 

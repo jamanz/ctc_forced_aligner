@@ -1,3 +1,5 @@
+import os
+
 import torch
 import torchaudio
 import torchaudio.functional as F
@@ -12,8 +14,8 @@ from .constants import (
     DEFAULT_OVERLAP_LENGTH_SEC,
     DEFAULT_PYTORCH_BATCH_SIZE_CHUNKS
 )
-from .utils import load_audio as util_load_audio  # To avoid confusion with torch load
-from .text_utils import load_transcript_from_file
+from .utils import load_audio as util_load_audio, Segment, unflatten  # To avoid confusion with torch load
+from .text_utils import load_transcript_from_file, text_normalize
 
 logger = logging.getLogger(__name__)
 

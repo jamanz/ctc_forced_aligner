@@ -3,7 +3,7 @@ import math
 import logging
 from typing import Tuple
 
-from .constants import SAMPLING_FREQ
+from .constants import SAMPLING_FREQ, VOCAB_DICT
 from .utils import time_to_frame  # Assuming this is already in utils.py and handles stride correctly
 
 logger = logging.getLogger(__name__)
