@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.py
+ctc_forced_aligner/__init__.py
+ctc_forced_aligner/ctc_aligner.py
+ctc_forced_aligner/main.cpp
+ctc_forced_aligner/norm_config.py
+ctc_forced_aligner/punctuations.lst
+ctc_forced_aligner.egg-info/PKG-INFO
+ctc_forced_aligner.egg-info/SOURCES.txt
+ctc_forced_aligner.egg-info/dependency_links.txt
+ctc_forced_aligner.egg-info/not-zip-safe
+ctc_forced_aligner.egg-info/requires.txt
+ctc_forced_aligner.egg-info/top_level.txt
