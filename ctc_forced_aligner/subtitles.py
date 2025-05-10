@@ -3,6 +3,7 @@ import math
 import numpy
 import logging
 from typing import List, Dict, Any
+import torch
 
 from .utils import Segment, frame_to_time  # Assuming Segment and frame_to_time are in utils
 
